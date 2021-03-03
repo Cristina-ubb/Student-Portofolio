@@ -1,17 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman';
+    color: black;
+}
 
+h4{
+    font-size:20px;
+}
 
-
+p {
+    font-size: 18px;
+    text-indent: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
 
 body {
-    color: black;
+    height:2000px;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
     background: linear-gradient(-45deg,#E86A7E,#CC6AE8,#956AE8,#6A7EE8,#6ABDE8);
     background-size: 400% 400%;
     position: relative;
-    animation: change 5s ease-in-out infinite;
+    animation: change 20s ease-in-out infinite;
 }
 
-Skills {
-    color: dodgerblue;
+.container span {
+    width: 100%;
+    display: block;
+}
+
+.Name{
+    height: 50px;
+    font-size: 28px;
+    text-align: center;
+    position: center;
+    display: block;
+}
+
+.Introduction{
+    width:90%;
+    position: absolute;
+    left:0px;
+    top:60px;
+    animation: appar 3s 1;
+}
+
+.Skills{
+    width: 10%;
+    position: absolute;
+    top:50px;
+    left:90%;
 }
 
 @keyframes change {
@@ -23,5 +64,16 @@ Skills {
     }
     100%{
         background-position: 0 50%;
+    }
+}
+
+@keyframes appar {
+    0%{
+        color: none;
+        margin-bottom: 100px;
+    }
+    90%{
+        color:none;
+        margin-bottom: 100px;
     }
 }
