@@ -1,0 +1,27 @@
+
+
+
+
+body {
+    color: black;
+    background: linear-gradient(-45deg,#E86A7E,#CC6AE8,#956AE8,#6A7EE8,#6ABDE8);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 5s ease-in-out infinite;
+}
+
+Skills {
+    color: dodgerblue;
+}
+
+@keyframes change {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
