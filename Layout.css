@@ -7,18 +7,17 @@
 
 body {
     height: auto;
-    margin-top: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
     position: relative;
 }
 
 section {
-    border:dashed;
+    border: dashed;
     position: relative;
-    width: 100%;
-    margin-top:20px;
-    min-height:25vh;
+    width: inherit;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    min-height: 25vh;
     height: auto;
     align-items: center;
     display: block;
@@ -34,8 +33,14 @@ p {
     text-indent: 30px;
     margin-left: 70px;
     margin-right: 70px;
+    margin-top:20px;
 }
 
 h4 {
     font-size: 20px;
+}
+
+.ImgSize {
+    max-width: 55%;
+    height: auto;
 }

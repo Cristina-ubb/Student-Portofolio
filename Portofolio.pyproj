@@ -27,8 +27,14 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="bgStyle.css" />
+    <Content Include="BgGradient.css" />
+    <Content Include="Layout.css" />
+    <Content Include="LayoutS1.css" />
+    <Content Include="LayoutS2.css" />
+    <Content Include="layouttt.css" />
+    <Content Include="Main.html" />
     <Content Include="Portofolio.html" />
+    <Content Include="TitleAnimation.css" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
   <!-- Specify pre- and post-build commands in the BeforeBuild and 
