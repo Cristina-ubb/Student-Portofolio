@@ -63,15 +63,19 @@
     <br />
 
     <section>
-        <div class="ParentP1">
-            <h4>
+        <div class="Parent">
+            <h2>
                 Dentist Office
-            </h4>
+            </h2>
 
             <br />
 
-            <p>
-                Project Description
+            <p class="Para">
+                If you want to create fantastic and unique visual experiences on the web,
+                you will eventually need two elements to overlap or exist in the same place.
+                You may even just need them to be positioned near or next to each other.
+                Let’s go over two different ways to accomplish this,
+                one with the position property and one with CSS Grid.
             </p>
             <div class="Pictures">
                 <div class="ChildImg2">
@@ -87,12 +91,14 @@
     </section>
 
     <section>
-        <div class="ParentP2">
-            <h4>
+        <div class="Parent">
+            <h2>
                 Dentist Office
-            </h4>
+            </h2>
 
-            <p>
+            <br />
+
+            <p class="Para">
                 Project Description
             </p>
 
@@ -105,6 +111,12 @@
             </div>
         </div>
     </section>
+    <script src="scroll-out.js"></script>
+    <script type="text/javascript">
+        ScrollOut({
+            targets: 'h2,.Para,img'
+        })
+    </script>
 
 </body>
 </html>

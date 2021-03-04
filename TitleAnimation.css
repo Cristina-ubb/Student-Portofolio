@@ -75,9 +75,8 @@
         background-image: url("Mountain.png");
         background-size: 100%;
         background-attachment: fixed;
-        animation: grow 120s linear 5ms;
+        animation: grow 100s linear 5ms infinite;
         transition: all 0.4s ease-in;
-        animation-fill-mode: forwards;
     }
 
 @keyframes grow {
@@ -86,6 +85,6 @@
     }
 
     50% {
-        transform: scale(1.2) translateY(-400px)
+        transform: scale(1.2) translateY(-150px)
     }
 }

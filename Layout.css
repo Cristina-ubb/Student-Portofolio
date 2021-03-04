@@ -11,7 +11,6 @@ body {
 }
 
 section {
-    border: dashed;
     position: relative;
     width: inherit;
     margin-top: 40px;
@@ -29,15 +28,12 @@ br{
 }
 
 p {
+    text-align:left;
     font-size: 18px;
     text-indent: 30px;
     margin-left: 70px;
     margin-right: 70px;
-    margin-top:20px;
-}
-
-h4 {
-    font-size: 20px;
+    margin-top: 20px;
 }
 
 .ImgSize {
