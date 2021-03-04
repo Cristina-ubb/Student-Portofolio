@@ -1,0 +1,28 @@
+.Title{
+    text-align: center;
+    position: center;
+}
+
+
+.Name {
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    text-decoration: none;
+}
+
+    .Name::after {
+        content: '';
+        width: 15%;
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        top: 29px;
+        left: 0%;
+        border-radius: 20px;
+        transition: all 200ms ease;
+    }
+
+    .Name:hover::after {
+        left: 85%;
+    }

@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman';
+    color: black;
+}
+
+body {
+    height: auto;
+    margin-top: 40px;
+    margin-left: 60px;
+    margin-right: 60px;
+    position: relative;
+}
+
+section {
+    border:dashed;
+    position: relative;
+    width: 100%;
+    margin-top:20px;
+    min-height:25vh;
+    height: auto;
+    align-items: center;
+    display: block;
+}
+
+br{
+    position:relative;
+    border-color:none;
+}
+
+p {
+    font-size: 18px;
+    text-indent: 30px;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+h4 {
+    font-size: 20px;
+}
