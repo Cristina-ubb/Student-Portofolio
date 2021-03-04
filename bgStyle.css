@@ -24,7 +24,7 @@ body {
     background: linear-gradient(-45deg,#E86A7E,#CC6AE8,#956AE8,#6A7EE8,#6ABDE8);
     background-size: 400% 400%;
     position: relative;
-    animation: change 20s ease-in-out infinite;
+    animation: changebg 20s ease-in-out infinite;
 }
 
 section{
@@ -35,14 +35,33 @@ section{
     display: contents;
 }
 
-
-.Name {
-    width: 100%;
-    height: 30px;
-    font-size: 28px;
+.MyName {
     text-align: center;
     position: center;
-    display: block;
+}
+
+
+.Name {
+    text-align: center;
+    font-size: 28px;
+    position: relative;
+    text-decoration: none;
+}
+
+    .Name::after {
+        content: '';
+        width: 15%;
+        height: 1px;
+        background-color: black;
+        position: absolute;
+        top: 29px;
+        left: 0%;
+        border-radius: 20px;
+        transition: all 200ms ease;
+    }
+
+.Name:hover::after{
+    left: 85%;
 }
 
 .Introduction{
@@ -65,7 +84,7 @@ section{
 
 }
 
-@keyframes change {
+@keyframes changebg {
     0%{
         background-position: 0 50%;
     }
@@ -77,6 +96,6 @@ section{
     }
 }
 
-@keyframes appar {
+@keyframes title {
 
 }
