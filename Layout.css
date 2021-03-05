@@ -37,6 +37,6 @@ p {
 }
 
 .ImgSize {
-    max-width: 55%;
+    max-width:inherit;
     height: auto;
 }

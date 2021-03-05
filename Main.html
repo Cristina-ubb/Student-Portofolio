@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="Layout.css" />
     <link rel="stylesheet" href="LayoutS1.css" />
     <link rel="stylesheet" href="LayoutS2.css" />
+    <link rel="stylesheet" href="LayoutPicture.css" />
     <link rel="stylesheet" href="BgGradient.css" />
     <link rel="stylesheet" href="TitleAnimation.css" />
     
@@ -70,23 +71,26 @@
 
             <br />
 
-            <p class="Para">
-                If you want to create fantastic and unique visual experiences on the web,
-                you will eventually need two elements to overlap or exist in the same place.
-                You may even just need them to be positioned near or next to each other.
-                Let’s go over two different ways to accomplish this,
-                one with the position property and one with CSS Grid.
-            </p>
-            <div class="Pictures">
-                <div class="ChildImg2">
-                    <img src="DentistPrincipal2.jpg" class="ImgSize" alt="Error loading the image" />
-                </div>
+            <div class="Flow">
+                <p class="Para">
+                    If you want to create fantastic and unique visual experiences on the web,
+                    you will eventually need two elements to overlap or exist in the same place.
+                    You may even just need them to be positioned near or next to each other.
+                    Let’s go over two different ways to accomplish this,
+                    one with the position property and one with CSS Grid.
+                </p>
 
-                <div class="ChildImg1">
-                    <img src="DentistPrincipal1.jpg" class="ImgSize" alt="Error loading the image" />
+                <div class="Pictures">
+                    <div class="PicChild">
+                        <img src="DentistPrincipal2.jpg" class="ImgSize" alt="Error loading the image" />
+                    </div>
+
+                    <div class="PicChild">
+                        <img src="DentistPrincipal1.jpg" class="ImgSize" alt="Error loading the image" />
+                    </div>
                 </div>
             </div>
-
+            
         </div>
     </section>
 
@@ -98,23 +102,28 @@
 
             <br />
 
-            <p class="Para">
-                Project Description
-            </p>
+            <div class="Flow">
+                <p class="Para">
+                    Project Description
+                </p>
 
-            <div class="ChildImg2">
-                <img src="DentistPrincipal2.jpg" class="ImgSize" alt="Error loading the image" />
+                <div class="Pictures">
+                    <div class="PicChild">
+                        <img src="DentistPrincipal2.jpg" class="ImgSize" alt="Error loading the image" />
+                    </div>
+
+                    <div class="PicChild">
+                        <img src="DentistPrincipal1.jpg" class="ImgSize" alt="Error loading the image" />
+                    </div>
+                </div>
             </div>
 
-            <div class="ChildImg1">
-                <img src="DentistPrincipal1.jpg" class="ImgSize" alt="Error loading the image" />
-            </div>
         </div>
     </section>
     <script src="scroll-out.js"></script>
     <script type="text/javascript">
         ScrollOut({
-            targets: 'h2,.Para,img'
+            targets: 'h2,.Para,img,Flow'
         })
     </script>
 

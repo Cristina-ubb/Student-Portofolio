@@ -1,12 +1,16 @@
  section .Parent{
     position: relative;
-    max-width: 80%;
-
 }
+
+.Flow{
+    display: flex;
+    max-width:100%;
+ }
 
 .Para {
     transition: 1s;
-    opacity: 0;
+    opacity: 0; 
+    max-width: 30%;
 }
 
     .Para[data-scroll="in"] {
