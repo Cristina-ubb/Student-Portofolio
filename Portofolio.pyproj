@@ -29,6 +29,7 @@
   <ItemGroup>
     <Content Include="BgGradient.css" />
     <Content Include="Layout.css" />
+    <Content Include="LayoutPicture.css" />
     <Content Include="LayoutS1.css" />
     <Content Include="LayoutS2.css" />
     <Content Include="layouttt.css" />

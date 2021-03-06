@@ -14,8 +14,8 @@ section {
     position: relative;
     width: inherit;
     margin-top: 40px;
-    margin-left: 60px;
-    margin-right: 60px;
+    margin-left: 30px;
+    margin-right: 30px;
     min-height: 25vh;
     height: auto;
     align-items: center;
@@ -34,9 +34,4 @@ p {
     margin-left: 70px;
     margin-right: 70px;
     margin-top: 20px;
-}
-
-.ImgSize {
-    max-width:inherit;
-    height: auto;
 }
