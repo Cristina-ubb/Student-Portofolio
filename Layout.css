@@ -14,8 +14,8 @@ section {
     position: relative;
     width: inherit;
     margin-top: 40px;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     min-height: 25vh;
     height: auto;
     align-items: center;
@@ -31,7 +31,7 @@ p {
     text-align:left;
     font-size: 18px;
     text-indent: 30px;
-    margin-left: 70px;
+    margin-left: 60px;
     margin-right: 70px;
     margin-top: 20px;
 }
