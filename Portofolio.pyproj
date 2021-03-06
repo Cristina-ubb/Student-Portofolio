@@ -32,9 +32,8 @@
     <Content Include="LayoutPicture.css" />
     <Content Include="LayoutS1.css" />
     <Content Include="LayoutS2.css" />
-    <Content Include="layouttt.css" />
     <Content Include="Main.html" />
-    <Content Include="Portofolio.html" />
+    <Content Include="ShowOnScroll.js" />
     <Content Include="TitleAnimation.css" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Web.targets" />
